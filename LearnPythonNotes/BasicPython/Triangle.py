@@ -1,0 +1,5 @@
+# print('The journey of a thousand miles begins with one step')
+print('    /|')
+print('   / |')
+print('  /  |')
+print(' /___|')
