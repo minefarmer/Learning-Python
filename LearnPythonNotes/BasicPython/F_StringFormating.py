@@ -24,14 +24,14 @@ age = 4
 
 #  Multiline f -strings   ******************************************************
 
-# print(f'{name.upper()} is 247 online learning, ')  # BLUELIME is 247 online learning, 
-# profession = "developer"
-# message = (
-#     f"Hi {name} . "
-#     f" You are a{profession}. "
-#     f" You have been teaching online for {age} years. "
-# )
-# print(message)  # Hi Bluelime .  You are adeveloper.  You have been teaching online for 4 years.
+print(f'{name.upper()} is 247 online learning, ')  # BLUELIME is 247 online learning, 
+profession = "developer"
+message = (
+    f"Hi {name} . "
+    f" You are a{profession}. "
+    f" You have been teaching online for {age} years. "
+)
+print(message)  # Hi Bluelime .  You are adeveloper.  You have been teaching online for 4 years.
 
 
 car = {'brand': 'Range Rover', 'model': 'HSE'}
