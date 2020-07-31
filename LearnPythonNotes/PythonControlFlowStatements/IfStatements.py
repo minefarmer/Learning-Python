@@ -1,4 +1,4 @@
-''' IF STATEMENTS
+''' IF LOOP STATEMENTS
 Used to check conditions before it executes certain code
 They help me make important decisions in my programs
 They only run code in if-block when the condition is True
