@@ -22,7 +22,7 @@ If I create a child class without an __init__()method it inherits all methods an
 # Creating a child class   45
 # Adding an __init__ to a child class   53
 # Adding a call to the parent __init__ method   67
-# 
+# Adding attributer to the child class   82
 # 
 # 
 # 
@@ -51,28 +51,47 @@ happy_lawyers.printname()  # Jack Smiley
 
 
 # Adding an __init__ to a child class
-class Lawyers(Person):
-    def __init__(self,fname,lname):  # This overrides th init of the parent function
-        self.firstname  = fname
-        self.lastname = lname
+# class Lawyers(Person):
+#     def __init__(self,fname,lname):  # This overrides th init of the parent function
+#         self.firstname  = fname
+#         self.lastname = lname
         
-    def printinfo(self):
-        print(self.firstname,self.lastname)
+#     def printinfo(self):
+#         print(self.firstname,self.lastname)
         
-happy_lawyers = Lawyers('Jack','Smiley')
-happy_lawyers.printinfo()  # Jack Smiley
+# happy_lawyers = Lawyers('Jack','Smiley')
+# happy_lawyers.printinfo()  # Jack Smiley
 
 
 
 #  adding a call to the parent __init__ method
+# class Lawyers(Person):
+#     def __init__(self,fname,lname):
+#         Person.__init__(self,fname,lname)
+#         # self.firstname  = fname
+#         # self.lastname = lname
+        
+#     def printinfo(self):
+#         print(self.firstname,self.lastname)
+        
+# happy_lawyers = Lawyers('Jack','Smiley')
+# happy_lawyers.printname()  # Jack Smiley
+
+
+
+# Adding attributer to the child class 
 class Lawyers(Person):
-    def __init__(self,fname,lname):
+    def __init__(self,fname,lname,casetype):
         Person.__init__(self,fname,lname)
+        self.casetype = casetype
+        
         # self.firstname  = fname
         # self.lastname = lname
         
     def printinfo(self):
-        print(self.firstname,self.lastname)
-        
-happy_lawyers = Lawyers('Jack','Smiley')
-happy_lawyers.printname()  # Jack Smiley
+        print('Hello my name is ',self.firstname,self.lastname)
+
+happy_lawyers = Lawyers('Jack','Smiley','criminal')
+happy_lawyers.printinfo()  # Jack Smiley
+
+print(happy_lawyers.casetype)  # criminal
