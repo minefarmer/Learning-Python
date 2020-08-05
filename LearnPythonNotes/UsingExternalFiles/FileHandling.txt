@@ -1,0 +1,23 @@
+PYTHON FILE HANDLING:   BUILT IN FUNCTIONS
+    FUNCTIONS           DESCRIPTION
+    open()              Used to open files. Takes two arguments: filename and mode
+    read()              Used to read the entire file content
+    readline()          Used to read one line in a file
+    readlines()         Used to read a file and returns a list of linebreaks
+    write()             Used to write to a file
+    writelines()        Used to write a list of strings
+    append()            Used toappend to existing file
+    close()             Close the file  == always close the file when done
+
+
+
+PYTHON FILE ACCESS MODES
+    MODES               DESCRIPTION
+    'r'                 Default mode. Used for reading
+    'r+'                Opens for reading and writing to file
+    'w'                 Open a file for writing, creates a file if it is not present
+    'w+'                Opens a file for writing and reading
+    'rb'                For reading a binary file eg images and video file(non-text)
+    'a'                 Opens file to append. Creates a new file if not present
+    't'                 Text - Default mode
+    'x'                 Create the specified file. Returns error if the file exists     
