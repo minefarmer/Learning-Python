@@ -6,7 +6,7 @@ Privite methods and variables are accessible from thier own class
 
 Double underscore prefix before an object name makes it private
 
-
+Set method is used to set value for variable, while get method is used to retrieve the value of the variable
 
 '''
 # 
@@ -20,24 +20,30 @@ Double underscore prefix before an object name makes it private
 # 
 class Cars:
     def __init__ (self,speed,color):
-        self.speed = speed
-        self.color = color
+        self.__speed = speed
+        self.__color = color
     
     def set_speed(self,value):
-        self.speed = value
+        self.__speed = value
         
     def get_speed(self):
-        return self.speed
+        return self.__speed
+    
+    def set_color(self,value):
+            self.__color = value
+        
+    def get_color(self):
+        return self.__color
 
 ford = Cars(250, 'green')
 nissan = Cars(300,'red')
 toyata = Cars(350, 'blue')
 
-ford.set_speed(450)
+ford.set_speed(750)
 
-ford.speed = 500
+ford.__speed = 800
 
 print(ford.get_speed())  # 500
 
-print(ford.color)  # green
+print(ford.get_color())  # green
         
