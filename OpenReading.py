@@ -8,6 +8,6 @@ f = open(c:\\myfolders\myfile.txt)  # if not in the same directory
 # 
 
 
-f = open("quote.txt")
+f = open("Quotes.txt")
 
 print(f.readable())
