@@ -19,4 +19,9 @@ ALWAYS CHECK A WEBSITE'S TERMS AND CONDITIONS , BRFORE I SCRAPE IT, TO AVOID ANY
 Do not request data from a website too aggressively(spamming) with my program as this may overload and break the website.
 The website layout may change so visit occasionally to check and then adapt my code.
 
+
+CREATE AN ISOLATED VIRTUAL ENVIRONMENT
+Make sure I'm in my project directory
+
+
 """
