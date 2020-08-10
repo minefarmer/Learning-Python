@@ -24,4 +24,8 @@ CREATE AN ISOLATED VIRTUAL ENVIRONMENT
 Make sure I'm in my project directory
 
 
+INSTALLING BEAUTIFULSOUP
+https://www.crummy.com/software/BeautifulSoup/bs4/doc/#
+
+
 """

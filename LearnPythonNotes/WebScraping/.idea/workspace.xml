@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c9a671e-555a-4b52-832c-0f5bb1a73aae" name="Default Changelist" comment="" />
+    <list default="true" id="5a7e14af-0dd1-4c1f-aa90-5113b7e3d91b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WebScraping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebScrapingVirtialEnv/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../WebScrapingVirtialEnv/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,16 +16,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="1fsJLXLsuE0t5rGc18EQ3urVFKb" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="1fsXt5vILokK8YATFHxWcCwIGN0" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
@@ -28,15 +31,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0c9a671e-555a-4b52-832c-0f5bb1a73aae" name="Default Changelist" comment="" />
-      <created>1597000810652</created>
+      <changelist id="5a7e14af-0dd1-4c1f-aa90-5113b7e3d91b" name="Default Changelist" comment="" />
+      <created>1597007985672</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1597000810652</updated>
+      <updated>1597007985672</updated>
     </task>
     <servers />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
